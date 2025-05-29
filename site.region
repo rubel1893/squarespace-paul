@@ -4,6 +4,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     {.if template.mobileStylesEnabled}<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">{.end}
     {squarespace-headers}
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@600&display=swap" rel="stylesheet">
+
     <script>(function(){var touchTest="ontouchstart"in window||navigator.msMaxTouchPoints;if(!touchTest){with(document.documentElement){className=className.replace(new RegExp("touch-styles"),"")}}})()</script>
  
     <script>
