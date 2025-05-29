@@ -6,14 +6,25 @@
     {squarespace-headers}
     <script>(function(){var touchTest="ontouchstart"in window||navigator.msMaxTouchPoints;if(!touchTest){with(document.documentElement){className=className.replace(new RegExp("touch-styles"),"")}}})()</script>
  
-<script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/f8bc02ab8b104a413810ac34/script.js"></script>
     <script>
   requestIdleCallback(() => {
-    const s = document.createElement('script');
-    s.src = "https://static.elfsight.com/platform/platform.js";
+  const scripts = [
+    "https://cdn-cookieyes.com/client_data/f8bc02ab8b104a413810ac34/script.js",
+    "https://www.googletagmanager.com/gtag/js?id=G-X4PKCN8JME",
+    "https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js",
+    "https://universe-static.elfsightcdn.com/widget/websiteTranslator.js",
+    "https://www.gstatic.com/recaptcha/releases/GUGrl5YkS/recaptcha__en.js"
+  ];
+
+  scripts.forEach(src => {
+    const s = document.createElement("script");
+    s.src = src;
     s.defer = true;
+    s.async = true;
     document.head.appendChild(s);
   });
+});
+
 </script>
 
 </head>
