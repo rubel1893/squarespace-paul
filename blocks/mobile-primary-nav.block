@@ -1,5 +1,5 @@
 {.section items}<div class="mobile-primary-nav-wrapper">
-  <nav class="mobile-primary-nav-links">
+<nav class="mobile-primary-nav-links" role="navigation" aria-label="Mobile primary navigation">
     {.repeated section @}
       {.collection?}
 
