@@ -67,3 +67,9 @@ requestIdleCallback(() => {
   document.head.appendChild(script);
 });
 
+requestIdleCallback(() => {
+  const elfsightScript = document.createElement('script');
+  elfsightScript.src = 'https://apps.elfsight.com/p/platform.js';
+  elfsightScript.defer = true;
+  document.head.appendChild(elfsightScript);
+});
