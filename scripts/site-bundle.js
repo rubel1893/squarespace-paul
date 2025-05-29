@@ -60,16 +60,4 @@ requestIdleCallback(() => {
   document.head.appendChild(script);
 });
 
-(window.requestIdleCallback || function(cb) { setTimeout(cb, 200); })(function () {
-  const script = document.createElement('script');
-  script.src = "https://assets.squarespace.com/universal/scripts-compressed/extract-css-moment-js-vendor-088ec0120fdbcfed-min.en-US.js";
-  script.defer = true;
-  document.head.appendChild(script);
-});
 
-requestIdleCallback(() => {
-  const elfsightScript = document.createElement('script');
-  elfsightScript.src = 'https://apps.elfsight.com/p/platform.js';
-  elfsightScript.defer = true;
-  document.head.appendChild(elfsightScript);
-});
