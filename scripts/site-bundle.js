@@ -55,9 +55,4 @@ t.OggVideo=n,t.Mp4Video=o},function(e,t,n){"use strict";Object.defineProperty(t,
 
 
 
-requestIdleCallback(() => {
-  const script = document.createElement('script');
-  script.src = "https://assets.squarespace.com/universal/scripts-compressed/async-gdpr-cookie-banner-83fe00bd9bb8b685-min.en-US.js";
-  script.defer = true;
-  document.head.appendChild(script);
-});
+
