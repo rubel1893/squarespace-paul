@@ -62,7 +62,6 @@
 
     <squarespace:script src="site-bundle.js" combo="false" />
 
-<script defer src="https://assets.squarespace.com/universal/scripts-compressed/extract-css-moment-js-vendor-088ec0120fdbcfed-min.en-US.js"></script>
 
     {squarespace-footers}
 
