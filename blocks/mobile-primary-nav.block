@@ -22,14 +22,14 @@
 
             {.collection?}
             <div class="collection{.if active} active{.end} folder-link">
-              <a href="{collection.fullUrl}" class="nav-item-{collection.typeName}">
+              <a href="{collection.fullUrl}" class="nav-item-{collection.typeName}" aria-label="{collection.navigationTitle}">
                 {collection.navigationTitle}
               </a>
             </div>
             {.end}
             {.section externalLink}
             <div class="external folder-link">
-              <a href="{url}"{.section newWindow} target="_blank"{.end}>
+              <a href="{url}" aria-label="{title}"{.section newWindow} target="_blank"{.end}>
                 {title}
               </a>
             </div>
